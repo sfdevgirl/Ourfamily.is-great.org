@@ -5,11 +5,12 @@
 <link rel="stylesheet" type="text/css" href="family_tree.css" />
 	<link href='http://fonts.googleapis.com/css?family=Cabin+Condensed|Gloria+Hallelujah|Indie+Flower|Pontano+Sans|Righteous' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 
-<h3> Thank You!</h3>
+<h1> Thank You!</h1>
 <div class="container">
 	<div class="box">
 		<div class="content">
