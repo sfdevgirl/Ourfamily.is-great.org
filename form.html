@@ -1,28 +1,8 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-
+<!DOCTYPE>
 <html>
 <head>
-	<title>Family Tree</title>
-	<link rel="stylesheet" type="text/css" href="family_tree.css" />
-	<link href='http://fonts.googleapis.com/css?family=Cabin+Condensed|Gloria+Hallelujah|Indie+Flower|Pontano+Sans|Righteous' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-<div class="welcome">
-<h3>Welcome and thank you for visiting my page</h3>
-<p>I am studying website development & design
-<br/>
-and with your help, for one of my projects I am going to create my family tree
-<br/>
-so please fill out your information
-<br/>
-and pass this link around to anyone blood/marriage/adoption related to you.
-<br/>Thank you for helping me with my project while getting to know my family history!
-</p>
-
-</div>
-
-
 <form method="post" action="family.php">
 
 	
@@ -37,12 +17,12 @@ and pass this link around to anyone blood/marriage/adoption related to you.
 	<td class="personal">Last:
 	<input type="text" name="lastname" size="20"></td>
 	<td class="personal">Madien:
-	<input type="text" name="lastname" size="20"></td>
+	<input type="text" name="madienname" size="20"></td>
 	</table>
 	
 	<table>
 	<td class="personal">Spouse's Name:</td>
-	<td class="personal"><input type="text" name="lastname" size="20"></td>
+	<td class="personal"><input type="text" name="sfirstname" size="20"></td>
 	<td class="personal" >
 	<select>
 	<option>Living</option>	
@@ -81,9 +61,11 @@ and pass this link around to anyone blood/marriage/adoption related to you.
 	</h5>
 
 	<table>
-	<td class="history"> Mother:</td>
+	<td class="history"> Mother's First:</td>
 	<td class="history"> <input type="text" name="lastname" size="20"></td>
-	<td class="history"> Father:</td>
+	<td class="history"> Mother's Madien:</td>
+	<td class="history"> <input type="text" name="mmname" size="20"></td>
+	<td class="history"> Father's:</td>
 	<td class="history"> <input type="text" name="lastname" size="20"></td>
 	</table>
 	

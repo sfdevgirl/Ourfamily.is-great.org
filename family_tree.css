@@ -1,39 +1,84 @@
-body {
-	background-color: #B7C68B;
+html {
+	background: url(http://www.outdooralabama.com/photos/images/05scenic1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+	margin: 0 auto;
+}
+.container{
+	margin-top: 200px;
+margin-left: 100px;
+margin-right: 100px;
+	
+}
+
+.box{
+	background-color: #685642;
+	margin:0 auto;
+	
+	
+}
+
+.content{
+	font-family: 'Raleway', sans-serif;
+color:#F4F0CB;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 50px;
+line-height: 170%;
+text-align: center;
 }
 
 
 p {
-	font-family: 'Indie Flower', cursive;
-	color:#F4F0CB;
-	font-size: 25px;
+	
+	padding-top: 20px;
+	font-size: 20px;
 	text-align: center;
 	}
 
+
+
 h3{
 	font-family: 'Righteous', cursive;
-	color: #685642;
-	font-size: 35px;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	margin:20px;
+}
+
+.family{
+	font-family: 'Righteous', cursive;
+	color: #FF3300;
+	text-decoration: 
+	font-size: 40px;
 	text-align: center;
 	margin:20px;
 }
 
 h4{
 	font-family: 'Gloria Hallelujah', cursive;
-	color: #A67D3D;
+	color: black;
 	font-size: 30px;
-	text-decoration: underline;
+	
+	text-align: center;
 }
 
 td {
 	font-family: 'Pontano Sans', sans-serif;
-	color:#993300;
+	color:#F4F0CB;
 	font-size: 18px;
 	font-weight: bold;
 	padding-right: 10px;
 	padding-bottom: 20px;
 }
 
+table{
+	text-align: justify;
+}
 td.personal {
 	
 	min-width: 120px;
@@ -45,8 +90,10 @@ td.personal {
 }
 
 .info{
+	padding-top: 40px;
 	margin-left: 20px;
 	padding-bottom:10px;
+	text-align: justify;
 }
 
 #live {
@@ -55,27 +102,32 @@ td.personal {
 
 h5{
 	font-family: 'Pontano Sans', sans-serif;
-	color:#993300;
+	
 	font-size: 18px;
 	font-weight: bold;
 }
 
-
+option{
+	font-family: 'Cabin Condensed', sans-serif;
+	color:#F4F0CB;
+	background-color: #B7C68B;
+	font-size: 12px;
+}
 
 
 input[type="radio"] {
 	font-family: 'Cabin Condensed', sans-serif;
-	color:#8B8378;
+	
 	font-size: 12px;
 	
 }
 
  input[type="text"]{
- 	border-color: #993300;
+ 	border-color: #F4F0CB;
 background-color: transparent; 
 border-style: solid; 
 border-width: 0px 0px 1px 0px; 
-color:#685642;
+color: white;
 font-size: 18px;
 font-family: 'Pontano Sans', sans-serif;
 padding: 0;
@@ -94,8 +146,9 @@ box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
 
 
 textarea {
-	border-color: #993300;
-background-color: transparent; 
+	border-color: #F4F0CB;
+background-color: transparent;
+color:white; 
 border-style: solid; 
 border-width: 1px;
 }
@@ -106,3 +159,36 @@ input:checked
 {outline: none;
 background:#993300;
 }
+
+footer {
+position: fixed;
+bottom: 0;
+right: 0;
+width:100%;
+margin: 0;
+padding-right: 10px;
+padding-bottom: 10px;
+height: auto;
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F4F0CB;
+    font-weight: bold;
+    
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #F4F0CB;
+}
+
+.copy {
+	float: right;
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 2px;
+	color:white;
+}
+
