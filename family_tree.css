@@ -1,5 +1,5 @@
 html {
-	background: url(http://www.outdooralabama.com/photos/images/05scenic1.jpg) no-repeat center center fixed; 
+	background: url(http://i1144.photobucket.com/albums/o489/shannones1104/tree_zps0f1cb64c.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,40 +7,71 @@ html {
 }
 body{
 	margin: 0 auto;
+	overflow: auto;
+}
+
+#hidden{
+	overflow: hidden;
 }
 .container{
-	margin-top: 200px;
-margin-left: 100px;
-margin-right: 100px;
+	margin: 100px;
 	
 }
 
 .box{
-	background-color: #685642;
+	background-color: rgba(139, 119, 101, 0.7);
 	margin:0 auto;
-	
-	
+	width: 670px;
+}
+
+#results{
+	width:800px;
 }
 
 .content{
 	font-family: 'Raleway', sans-serif;
 color:#F4F0CB;
-padding-top: 10px;
-padding-bottom: 10px;
-margin: 50px;
-line-height: 170%;
-text-align: center;
+
+
+
+}
+
+#form{
+	padding-top:40px;
 }
 
 
-p {
-	
-	padding-top: 50px;
+article {
+	text-align: center;
+	padding: 30px 10px 10px 10px;
 	font-size: 20px;
 	text-align: center;
+
 	}
 
-h1{
+button{
+	margin: 30px;
+background-color: #F4F0CB;
+border: 2px solid brown;
+border-radius: 4px;
+padding: 5px 10px;
+}
+
+article a{
+	
+	
+	font-size: 35px;
+	color: brown;
+	text-decoration: none;
+}
+
+article button:hover, article a:hover{
+	
+	background-color: brown;
+	color:#F4F0CB;
+}
+
+#header{
 	font-family: 'Righteous', cursive;
 	color: white;
 	font-size: 90px;
@@ -48,57 +79,73 @@ h1{
 	margin: 10px;
 }
 
+h1{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	
+
+}
+.title{
+	margin:30px 10px;
+	line-height: 200%;
+}
+
 h3{
 	font-family: 'Righteous', cursive;
 	color: white;
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
-	margin: 10px;
+	margin: 20px;
 }
 
-.title{
-	
-	margin:20px;
-}
+
+
 
 .family{
 	font-family: 'Righteous', cursive;
 	color: #FF3300;
-	text-decoration: 
+	
 	font-size: 40px;
 	text-align: center;
 	margin:20px;
 }
 
-h4{
-	font-family: 'Hammersmith One', sans-serif;
+h2{
+	
+	font-family: 'Montserrat', sans-serif;
 	color: black;
-	font-size: 30px;
-	text-transform: uppercase;
+	font-size: 60px;
 	text-align: center;
-	margin:20px;
+	margin: 0;
+	width: 100%;
 }
 
 td {
 	font-family: 'Pontano Sans', sans-serif;
 	color:#F4F0CB;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: bold;
-	padding-right: 10px;
+	padding-right: 40px;
 	padding-bottom: 20px;
+	float: left;
 }
 
 table{
 	text-align: justify;
+	padding: 40px 20px 20px 20px;
 }
 td.personal {
 	
 	min-width: 120px;
 }
 
-.history{
+.history td{
+	font-size: 16px;
+	font-weight: normal;
 	
-	min-width: 60px;
 }
 
 .info{
@@ -140,7 +187,7 @@ background-color: transparent;
 border-style: solid; 
 border-width: 0px 0px 1px 0px; 
 color: white;
-font-size: 18px;
+font-size: 20px;
 font-family: 'Pontano Sans', sans-serif;
 padding: 0;
 

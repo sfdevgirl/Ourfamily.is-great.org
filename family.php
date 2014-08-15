@@ -6,13 +6,14 @@
 	<link href='http://fonts.googleapis.com/css?family=Cabin+Condensed|Gloria+Hallelujah|Indie+Flower|Pontano+Sans|Righteous' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
+<body id="hidden">
 
-<h1> Thank You!</h1>
+<h1 id="header"> Thank You!</h1>
 <div class="container">
-	<div class="box">
+	<div class="box" id="results">
 		<div class="content">
 
 <?php
@@ -30,24 +31,30 @@
 	$father = $_POST['father'];
 	$siblings = $_POST['siblings'];
 	$extra = $_POST['extra'];
+	$current = $_POST['current'];
+	$home = $_POST['home'];
 
 
 
 	
 
-	print "<h3>You are in the</h3> <h4>$marriedname /$lastname / $mmadien</h4> <h3>family</h3>"; 
-	print "<p>Your name is $firstname $lastname, ";
+	print "<h1>You are in the</h1> <h2>$marriedname /$lastname / $mmadien</h2> <h1>family</h1>"; 
+	print "<table><td>Name: $firstname $lastname </td>" ;
 	
-	print "You live in $location and are from $hometown. ";
-	print "Your parents are $mother and $father ";
-	print "and your siblings are $siblings.</p>";
+	print "<td>Location: $location </td>";
+	print "<tr><td>Hometown: $hometown </td>";
+	print "<td>Parents: $mother $mmadien and $father $lastname </td>";
+	print "<tr><td>Siblings: $siblings $lastname</td> </table>";
 
 
 ?>
 </div>
 </div>
 </div>
-
+<footer>
+	
+	<span class="copy">&copy;opyright 2014. <a href="mailto:shannon@shannonknowscode.com">Shannon Smith</a> </span> 
+</footer>
 </body>
 </html>
 
