@@ -1,8 +1,8 @@
 <html>
 <head>
 	<title>Thank You! </title>
-	<link rel="stylesheet" type="text/css" href="family_tree.css" />
-<link rel="stylesheet" type="text/css" href="family_tree.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
 	<link href='http://fonts.googleapis.com/css?family=Cabin+Condensed|Gloria+Hallelujah|Indie+Flower|Pontano+Sans|Righteous' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
@@ -52,7 +52,7 @@
 </div>
 </div>
 <footer>
-	
+	<span class="memory">In memory of Al Smith & Viola Burgess</span>
 	<span class="copy">&copy;opyright 2014. <a href="mailto:shannon@shannonknowscode.com">Shannon Smith</a> </span> 
 </footer>
 

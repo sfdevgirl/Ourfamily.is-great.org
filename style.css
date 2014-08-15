@@ -243,6 +243,14 @@ footer a:hover {
     color: #F4F0CB;
 }
 
+.memory {
+	float:left;
+	padding-top: 5px;
+	padding-left:15px;
+	padding-bottom:2px;
+	color: white;
+}
+
 .copy {
 	float: right;
 padding-top: 5px;
